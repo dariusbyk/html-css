@@ -1,0 +1,53 @@
+body{
+    background-color:lightblue;
+}
+
+.container{
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: drive 3s ease-out;
+    white-space: nowrap;
+}
+
+@keyframes drive {
+    from {
+        left: -100%; 
+    }
+    to {
+        left: calc(100% - 250px); 
+    }
+}
+
+.roof{
+    width:85px;
+    height:20px;
+    background-color:black;
+}
+
+.kuzov{
+    width:200px;
+    height:50px;
+    background-color:black;
+    display:inline-block;
+}
+
+.lamp{
+    width:20px;
+    height:20px;
+    background-color:yellow;
+    display:inline-block;
+}
+
+.wheel{
+    width:35px;
+    height:35px;
+    background-color:slategray;
+    display:inline-block;
+    border-radius: 50%;
+}
+
+.buttom{
+    width:100px;
+    display:inline-block;
+}
